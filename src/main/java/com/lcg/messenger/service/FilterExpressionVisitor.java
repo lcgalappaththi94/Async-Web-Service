@@ -77,7 +77,6 @@ public class FilterExpressionVisitor implements ExpressionVisitor<Object> {
         }
     }
 
-
     @Override
     public Object visitUnaryOperator(UnaryOperatorKind operator, Object operand) throws ExpressionVisitException, ODataApplicationException {
         System.out.println("visitUnaryOperator() @FilterExpressionVisitor");

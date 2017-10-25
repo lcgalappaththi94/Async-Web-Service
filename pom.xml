@@ -9,9 +9,9 @@
     <name>DemoService Maven Webapp</name>
 
     <properties>
-        <javax.version>2.5</javax.version>
-        <odata.version>4.0.0</odata.version>
-        <slf4j.version>1.7.7</slf4j.version>
+        <javax.version>LATEST</javax.version>
+        <odata.version>LATEST</odata.version>
+        <slf4j.version>LATEST</slf4j.version>
     </properties>
 
 
@@ -84,36 +84,6 @@
             <groupId>org.apache.olingo</groupId>
             <artifactId>odata-server-api</artifactId>
             <version>4.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.olingo</groupId>
-            <artifactId>odata-server-api</artifactId>
-            <version>4.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.olingo</groupId>
-            <artifactId>odata-server-api</artifactId>
-            <version>4.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.olingo</groupId>
-            <artifactId>odata-server-api</artifactId>
-            <version>4.0.0</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>2.6.1</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-core</artifactId>
-            <version>2.6.1</version>
         </dependency>
 
     </dependencies>

@@ -20,7 +20,8 @@ public class AsyncHelper {
         System.out.println("wait value : " + wait);
 
         System.out.println("------------------------------------------waiting started----------------------------------------");
-        while (!DemoAsyncService.persistentResponse.find(location) && Duration.between(start, Instant.now()).toMillis() < wait * 1000) ;
+        while (!DemoAsyncService.persistentResponse.find(location) && Duration.between(start, Instant.now()).toMillis() < wait * 1000)
+            ;
         System.out.println("------------------------------------------waiting ended------------------------------------------");
 
 
