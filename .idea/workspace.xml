@@ -6,9 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b6a3dc-8a1c-4cc7-8d47-c09b89d70333" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/Asy.java" />
+    <list default="true" id="93b6a3dc-8a1c-4cc7-8d47-c09b89d70333" name="Default" comment="Refactored DatabaseSystem.java">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java" afterPath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,34 +77,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DatabaseSystem.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DatabaseSystem.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="668">
-              <caret line="148" column="13" lean-forward="true" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
+            <state relative-caret-position="243">
+              <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1508912140209" expanded="true" signature="2117:2152" ph="INSERT INTO responses... " />
-                <marker date="1508912140209" expanded="true" signature="2735:2775" ph="SELECT * FRO... responses" />
-                <marker date="1508912140209" expanded="true" signature="3481:3543" ph="DELETE FROM " />
-                <marker date="1508912140209" expanded="true" signature="3872:3912" ph="SELECT * FRO... responses" />
-                <marker date="1508912140209" expanded="true" signature="4568:4607" ph="DELETE FROM " />
-                <marker date="1508912140209" expanded="true" signature="5629:5666" ph="CREATE TABLE... responses" />
-                <marker date="1508912140209" expanded="true" signature="5629:5709" ph="CREATE TABLE... responses" />
-                <marker date="1508912140209" expanded="true" signature="5629:5738" ph="CREATE TABLE... responses" />
-                <marker date="1508912140209" expanded="true" signature="5629:5763" ph="CREATE TABLE... responses" />
-                <marker date="1508912140209" expanded="true" signature="5629:5764" ph="CREATE TABLE... responses" />
+                <marker date="1508923595391" expanded="true" signature="2075:2110" ph="INSERT INTO responses... " />
+                <marker date="1508923595391" expanded="true" signature="2693:2733" ph="SELECT * FRO... responses" />
+                <marker date="1508923595391" expanded="true" signature="3439:3501" ph="DELETE FROM " />
+                <marker date="1508923595391" expanded="true" signature="3830:3870" ph="SELECT * FRO... responses" />
+                <marker date="1508923595391" expanded="true" signature="4526:4565" ph="DELETE FROM " />
+                <marker date="1508923595391" expanded="true" signature="5577:5614" ph="CREATE TABLE... responses" />
+                <marker date="1508923595391" expanded="true" signature="5577:5657" ph="CREATE TABLE... responses" />
+                <marker date="1508923595391" expanded="true" signature="5577:5686" ph="CREATE TABLE... responses" />
+                <marker date="1508923595391" expanded="true" signature="5577:5711" ph="CREATE TABLE... responses" />
+                <marker date="1508923595391" expanded="true" signature="5577:5712" ph="CREATE TABLE... responses" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Asy.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/Asy.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -156,7 +146,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>uriEntityset</find>
       <find>readEntitySetData</find>
       <find>entityCollection</find>
       <find>DemoServiceTest1</find>
@@ -186,6 +175,7 @@
       <find>get</find>
       <find>db</find>
       <find>.close</find>
+      <find>dbConnection</find>
     </findStrings>
     <replaceStrings>
       <replace>Profile</replace>
@@ -205,6 +195,7 @@
       <replace>entityResult</replace>
       <replace>uriEntitySet</replace>
       <replace>DemoServiceTest</replace>
+      <replace>db</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -273,12 +264,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/FileSystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/CleanerTask.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/lcg/messenger/web/DemoServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/Asy.java" />
         <option value="$PROJECT_DIR$/request.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java" />
       </list>
     </option>
   </component>
@@ -506,6 +497,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="messenger" type="462c0819:PsiDirectoryNode" />
               <item name="async" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoService" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoServices" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="messenger" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -791,7 +791,7 @@
       <workItem from="1508857222543" duration="562000" />
       <workItem from="1508858093889" duration="2982000" />
       <workItem from="1508899313478" duration="14917000" />
-      <workItem from="1508921374180" duration="1803000" />
+      <workItem from="1508921374180" duration="2297000" />
     </task>
     <task id="LOCAL-00001" summary="This consists of CRUD, navigations, top, skip , count , expand, select, orderby, filters , functions and actions.">
       <created>1506494324668</created>
@@ -870,11 +870,25 @@
       <option name="project" value="LOCAL" />
       <updated>1508923126837</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="added Asy.java">
+      <created>1508923221549</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1508923221549</updated>
+    </task>
+    <task id="LOCAL-00013" summary="deleted Asy.java">
+      <created>1508923282073</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1508923282073</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="424067000" />
+    <option name="totallyTimeSpent" value="424561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -891,7 +905,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.49785176" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3206522" sideWeight="0.49785176" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -901,7 +915,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49570355" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20682302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -938,7 +952,10 @@
     <MESSAGE value="This consists of CRUD, navigations, top, skip , count , expand, select, orderby, filters , functions and actions." />
     <MESSAGE value="Changed Files" />
     <MESSAGE value="git ignore changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore changed" />
+    <MESSAGE value="added Asy.java" />
+    <MESSAGE value="deleted Asy.java" />
+    <MESSAGE value="Refactored DatabaseSystem.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored DatabaseSystem.java" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1215,31 +1232,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="148" column="13" lean-forward="true" selection-start-line="148" selection-start-column="13" selection-end-line="148" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1508912140209" expanded="true" signature="2117:2152" ph="INSERT INTO responses... " />
-            <marker date="1508912140209" expanded="true" signature="2735:2775" ph="SELECT * FRO... responses" />
-            <marker date="1508912140209" expanded="true" signature="3481:3543" ph="DELETE FROM " />
-            <marker date="1508912140209" expanded="true" signature="3872:3912" ph="SELECT * FRO... responses" />
-            <marker date="1508912140209" expanded="true" signature="4568:4607" ph="DELETE FROM " />
-            <marker date="1508912140209" expanded="true" signature="5629:5666" ph="CREATE TABLE... responses" />
-            <marker date="1508912140209" expanded="true" signature="5629:5709" ph="CREATE TABLE... responses" />
-            <marker date="1508912140209" expanded="true" signature="5629:5738" ph="CREATE TABLE... responses" />
-            <marker date="1508912140209" expanded="true" signature="5629:5763" ph="CREATE TABLE... responses" />
-            <marker date="1508912140209" expanded="true" signature="5629:5764" ph="CREATE TABLE... responses" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/Asy.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="16" column="39" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1508923595391" expanded="true" signature="2075:2110" ph="INSERT INTO responses... " />
+            <marker date="1508923595391" expanded="true" signature="2693:2733" ph="SELECT * FRO... responses" />
+            <marker date="1508923595391" expanded="true" signature="3439:3501" ph="DELETE FROM " />
+            <marker date="1508923595391" expanded="true" signature="3830:3870" ph="SELECT * FRO... responses" />
+            <marker date="1508923595391" expanded="true" signature="4526:4565" ph="DELETE FROM " />
+            <marker date="1508923595391" expanded="true" signature="5577:5614" ph="CREATE TABLE... responses" />
+            <marker date="1508923595391" expanded="true" signature="5577:5657" ph="CREATE TABLE... responses" />
+            <marker date="1508923595391" expanded="true" signature="5577:5686" ph="CREATE TABLE... responses" />
+            <marker date="1508923595391" expanded="true" signature="5577:5711" ph="CREATE TABLE... responses" />
+            <marker date="1508923595391" expanded="true" signature="5577:5712" ph="CREATE TABLE... responses" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -17,17 +17,16 @@ public class DatabaseSystem implements PersistentResponse {
     private static Connection db = null;
 
     public DatabaseSystem() {
-        this.db = getConnection();
+        db = getConnection();
         createTable(db);
     }
 
-    public Connection getConnection() {
+    private Connection getConnection() {
         //System.out.println("getConnection() @DatabaseSystem");
         if (db == null) {
             try {
                 Class.forName("com.mysql.jdbc.Driver");
-                Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/Asynchronous", "root", "");
-                return con;
+                return DriverManager.getConnection("jdbc:mysql://localhost:3306/Asynchronous", "root", "");
             } catch (Exception se) {
                 se.printStackTrace();
                 return null;
@@ -159,12 +158,12 @@ public class DatabaseSystem implements PersistentResponse {
         return Arrays.copyOf(bytes, i + 1);
     }
 
-    private static void createTable(Connection dbConnection) {
+    private static void createTable(Connection db) {
         PreparedStatement preparedStatement = null;
         String createTableSQL = "CREATE TABLE IF NOT EXISTS responses(location VARCHAR(100) PRIMARY KEY NOT NULL,response MEDIUMTEXT NOT NULL,created DATETIME NOT NULL)";
 
         try {
-            preparedStatement = dbConnection.prepareStatement(createTableSQL);
+            preparedStatement = db.prepareStatement(createTableSQL);
             int affected = preparedStatement.executeUpdate();// execute create SQL statement
             if (affected > 0) {
                 System.out.println("Table \"response\" is created!");
