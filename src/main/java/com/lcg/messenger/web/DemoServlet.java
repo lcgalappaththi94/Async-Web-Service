@@ -48,6 +48,7 @@ public class DemoServlet extends HttpServlet {
             // let the handler do the work
             handler.process(req, resp);
             Instant end = Instant.now();
+            LOG.info("Completed Successfully");
             System.out.println("end>>> Service() @DemoServlet with elapsed time: " + Duration.between(start, end).toMillis() + " ms");
         } catch (RuntimeException e) {
             System.out.println("Exception Service() @DemoServlet >>> " + e);
