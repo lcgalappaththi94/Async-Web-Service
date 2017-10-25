@@ -2,3 +2,5 @@
 .idea
 DemoService.iml
 *.txt
+target/generated-sources/
+.settings
