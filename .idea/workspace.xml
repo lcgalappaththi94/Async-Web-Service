@@ -6,77 +6,35 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b6a3dc-8a1c-4cc7-8d47-c09b89d70333" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/checking.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/AsyncHelper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/AsyncProcessor$ProcessorInvocationHandler.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/AsyncProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoAsyncService$AsyncProcessorHolder.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoAsyncService$AsyncRunner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoAsyncService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoStatusMonitorServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/CleanerTask.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/DataProvider$DataProviderException.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/DataProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/DatabaseSystem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/Delete.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/FileSystem.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/PersistentResponse.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/RequestValidator$ValidationResult.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/RequestValidator.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/DemoActionProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/DemoBatchProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/DemoEdmProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/DemoEntityCollectionProcessor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/DemoEntityCollectionProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/DemoEntityProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/DemoPrimitiveProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/FilterExpressionVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/util/Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/web/DemoServlet.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/web/DemoServletContextListener.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/data/Storage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/data/TransactionalEntityManager.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/service/DemoActionProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/service/DemoBatchProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/service/DemoEdmProvider.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/service/DemoEntityCollectionProcessor$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/service/DemoEntityCollectionProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/service/DemoEntityProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/service/DemoPrimitiveProcessor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/service/FilterExpressionVisitor.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/util/Util.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/myservice/mynamespace/web/DemoServletAll.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/aalto-xml-0.9.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/antlr4-runtime-4.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/c3p0-0.9.1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/commons-lang3-3.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/gson-2.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/jackson-annotations-2.4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/jackson-core-2.4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/jackson-databind-2.4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/jackson-dataformat-xml-2.4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/jackson-module-jaxb-annotations-2.4.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/log4j-api-2.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/log4j-core-2.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/mysql-connector-java-5.1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/odata-commons-api-4.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/odata-commons-core-4.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/odata-server-api-4.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/odata-server-core-4.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/org.abego.treelayout.core-1.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/quartz-2.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/quartz-jobs-2.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/slf4j-api-1.7.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/slf4j-simple-1.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/lib/stax2-api-3.1.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/DemoService/index.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/DatabaseSystem.class" afterPath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/DatabaseSystem.class" />
+    <list default="true" id="93b6a3dc-8a1c-4cc7-8d47-c09b89d70333" name="Default" comment="File system modification">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/AsyncHelper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/AsyncProcessor$ProcessorInvocationHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/AsyncProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/DemoAsyncService$AsyncProcessorHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/DemoAsyncService$AsyncRunner.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/DemoAsyncService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/DemoStatusMonitorServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/CleanerTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/DataProvider$DataProviderException.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/DataProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/DatabaseSystem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/Delete.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/FileSystem.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/PersistentResponse.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/RequestValidator$ValidationResult.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/RequestValidator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/service/DemoActionProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/service/DemoBatchProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/service/DemoEdmProvider.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/service/DemoEntityCollectionProcessor$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/service/DemoEntityCollectionProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/service/DemoEntityProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/service/DemoPrimitiveProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/service/FilterExpressionVisitor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/util/Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/web/DemoServlet.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/web/DemoServletContextListener.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/web/DemoServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/web/DemoServlet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -126,11 +84,18 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="e#2031#2032#0" expanded="true" />
-                <element signature="e#2071#2072#0" expanded="true" />
-              </folding>
+              <caret line="39" column="96" lean-forward="false" selection-start-line="39" selection-start-column="96" selection-end-line="39" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AsyncHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/AsyncHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -138,8 +103,28 @@
       <file leaf-file-name="AsyncProcessor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/AsyncProcessor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="216">
               <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoEntityCollectionProcessor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/service/DemoEntityCollectionProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DemoEntityProcessor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/service/DemoEntityProcessor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -148,30 +133,26 @@
       <file leaf-file-name="DatabaseSystem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="1530">
+              <caret line="96" column="27" lean-forward="false" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1508923595391" expanded="true" signature="2075:2110" ph="INSERT INTO responses... " />
-                <marker date="1508923595391" expanded="true" signature="2693:2733" ph="SELECT * FRO... responses" />
-                <marker date="1508923595391" expanded="true" signature="3439:3501" ph="DELETE FROM " />
-                <marker date="1508923595391" expanded="true" signature="3830:3870" ph="SELECT * FRO... responses" />
-                <marker date="1508923595391" expanded="true" signature="4526:4565" ph="DELETE FROM " />
-                <marker date="1508923595391" expanded="true" signature="5577:5614" ph="CREATE TABLE... responses" />
-                <marker date="1508923595391" expanded="true" signature="5577:5657" ph="CREATE TABLE... responses" />
-                <marker date="1508923595391" expanded="true" signature="5577:5686" ph="CREATE TABLE... responses" />
-                <marker date="1508923595391" expanded="true" signature="5577:5711" ph="CREATE TABLE... responses" />
-                <marker date="1508923595391" expanded="true" signature="5577:5712" ph="CREATE TABLE... responses" />
+                <marker date="1508923596000" expanded="true" signature="2075:2110" ph="INSERT INTO responses... " />
+                <marker date="1508923596000" expanded="true" signature="2693:2733" ph="SELECT * FRO... responses" />
+                <marker date="1508923596000" expanded="true" signature="3439:3501" ph="DELETE FROM " />
+                <marker date="1508923596000" expanded="true" signature="3830:3870" ph="SELECT * FRO... responses" />
+                <marker date="1508923596000" expanded="true" signature="4526:4565" ph="DELETE FROM " />
+                <marker date="1508923596000" expanded="true" signature="5577:5712" ph="CREATE TABLE... responses" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DemoServlet.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DemoServlet.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/web/DemoServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+            <state relative-caret-position="468">
+              <caret line="42" column="56" lean-forward="false" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -182,7 +163,7 @@
       <file leaf-file-name="FileSystem.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/FileSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
+            <state relative-caret-position="1620">
               <caret line="101" column="32" lean-forward="false" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -191,14 +172,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CleanerTask.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/CleanerTask.java">
+      <file leaf-file-name="Delete.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/Delete.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="234">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -336,8 +315,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/Asy.java" />
         <option value="$PROJECT_DIR$/request.txt" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/lcg/messenger/web/DemoServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java" />
       </list>
     </option>
   </component>
@@ -361,11 +340,16 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="y" value="2" />
-    <option name="width" value="1378" />
-    <option name="height" value="733" />
+    <option name="width" value="697" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -524,6 +508,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -621,20 +606,19 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Local/GitHub/PortableGit_f02737a78695063deace08e96d5042710d3e32db/cmd/git.exe" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="SearchEverywhereHistoryKey" value="&quot;location&quot;&#9;null&#9;null" />
     <property name="extract.method.default.visibility" value="private" />
@@ -901,7 +885,9 @@
       <workItem from="1508857222543" duration="562000" />
       <workItem from="1508858093889" duration="2982000" />
       <workItem from="1508899313478" duration="14917000" />
-      <workItem from="1508921374180" duration="3206000" />
+      <workItem from="1508921374180" duration="4314000" />
+      <workItem from="1508927065939" duration="3745000" />
+      <workItem from="1508943853069" duration="325000" />
     </task>
     <task id="LOCAL-00001" summary="This consists of CRUD, navigations, top, skip , count , expand, select, orderby, filters , functions and actions.">
       <created>1506494324668</created>
@@ -1001,11 +987,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508923714364</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="File system modification">
+      <created>1508924611986</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1508924611986</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="425470000" />
+    <option name="totallyTimeSpent" value="430648000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1017,40 +1010,40 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39130434" sideWeight="0.50322235" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3597826" sideWeight="0.49677765" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.49785176" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32887402" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49570355" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39130434" sideWeight="0.50322235" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49570355" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20682302" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2647504" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290469" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3597826" sideWeight="0.49677765" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.49785176" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921588" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1073,7 +1066,8 @@
     <MESSAGE value="added Asy.java" />
     <MESSAGE value="deleted Asy.java" />
     <MESSAGE value="Refactored DatabaseSystem.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored DatabaseSystem.java" />
+    <MESSAGE value="File system modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="File system modification" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1082,15 +1076,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/service/FilterExpressionVisitor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4437">
-          <caret line="261" column="48" lean-forward="false" selection-start-line="261" selection-start-column="48" selection-end-line="261" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/Storage.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/prefer/PreferenceName.java" />
     <entry file="file://$PROJECT_DIR$/.classpath">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1119,7 +1104,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" column="33" lean-forward="true" selection-start-line="23" selection-start-column="33" selection-end-line="23" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1128,7 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="45" column="74" lean-forward="true" selection-start-line="45" selection-start-column="74" selection-end-line="45" selection-end-column="74" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1160,7 +1143,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,7 +1157,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
           <caret line="21" column="51" lean-forward="true" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,7 +1164,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="426">
           <caret line="62" column="48" lean-forward="false" selection-start-line="62" selection-start-column="48" selection-end-line="62" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1195,14 +1175,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/service/DemoEntityProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="74" column="27" lean-forward="false" selection-start-line="74" selection-start-column="27" selection-end-line="74" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/util/Util.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -1211,29 +1183,10 @@
       </provider>
     </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/58c41b3a-8c53-4f35-aa3e-dd253f9e095d/console.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/service/DemoEntityCollectionProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="389" column="56" lean-forward="true" selection-start-line="389" selection-start-column="56" selection-end-line="389" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/AsyncHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/web/DemoServletContextListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="77" lean-forward="false" selection-start-line="17" selection-start-column="77" selection-end-line="17" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1241,25 +1194,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/Delete.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/CleanerTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="54" lean-forward="false" selection-start-line="20" selection-start-column="54" selection-end-line="20" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1267,7 +1201,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1275,36 +1208,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="612">
           <caret line="111" column="8" lean-forward="false" selection-start-line="111" selection-start-column="8" selection-end-line="111" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/FileSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="101" column="32" lean-forward="false" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#2031#2032#0" expanded="true" />
-            <element signature="e#2071#2072#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/AsyncProcessor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1312,7 +1215,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
           <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1320,7 +1222,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="41" lean-forward="true" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1328,53 +1229,121 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/Asy.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/Asy.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/CleanerTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="276">
+          <caret line="20" column="51" lean-forward="false" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/FileSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="101" column="32" lean-forward="false" selection-start-line="101" selection-start-column="32" selection-end-line="101" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="19" column="29" lean-forward="false" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="1530">
+          <caret line="96" column="27" lean-forward="false" selection-start-line="96" selection-start-column="27" selection-end-line="96" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1508923595391" expanded="true" signature="2075:2110" ph="INSERT INTO responses... " />
-            <marker date="1508923595391" expanded="true" signature="2693:2733" ph="SELECT * FRO... responses" />
-            <marker date="1508923595391" expanded="true" signature="3439:3501" ph="DELETE FROM " />
-            <marker date="1508923595391" expanded="true" signature="3830:3870" ph="SELECT * FRO... responses" />
-            <marker date="1508923595391" expanded="true" signature="4526:4565" ph="DELETE FROM " />
-            <marker date="1508923595391" expanded="true" signature="5577:5614" ph="CREATE TABLE... responses" />
-            <marker date="1508923595391" expanded="true" signature="5577:5657" ph="CREATE TABLE... responses" />
-            <marker date="1508923595391" expanded="true" signature="5577:5686" ph="CREATE TABLE... responses" />
-            <marker date="1508923595391" expanded="true" signature="5577:5711" ph="CREATE TABLE... responses" />
-            <marker date="1508923595391" expanded="true" signature="5577:5712" ph="CREATE TABLE... responses" />
+            <marker date="1508923596000" expanded="true" signature="2075:2110" ph="INSERT INTO responses... " />
+            <marker date="1508923596000" expanded="true" signature="2693:2733" ph="SELECT * FRO... responses" />
+            <marker date="1508923596000" expanded="true" signature="3439:3501" ph="DELETE FROM " />
+            <marker date="1508923596000" expanded="true" signature="3830:3870" ph="SELECT * FRO... responses" />
+            <marker date="1508923596000" expanded="true" signature="4526:4565" ph="DELETE FROM " />
+            <marker date="1508923596000" expanded="true" signature="5577:5712" ph="CREATE TABLE... responses" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="39" column="96" lean-forward="false" selection-start-line="39" selection-start-column="96" selection-end-line="39" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/AsyncProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="36" column="43" lean-forward="false" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/AsyncHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/service/DemoEntityProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/odata-server-api/4.0.0/odata-server-api-4.0.0.jar!/org/apache/olingo/server/api/ODataHttpHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/web/DemoServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="50" column="44" lean-forward="false" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        <state relative-caret-position="468">
+          <caret line="42" column="56" lean-forward="false" selection-start-line="42" selection-start-column="56" selection-end-line="42" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/olingo/odata-server-api/4.0.0/odata-server-api-4.0.0.jar!/org/apache/olingo/server/api/processor/CountEntityCollectionProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/service/DemoEntityCollectionProcessor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="39" column="38" lean-forward="true" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
