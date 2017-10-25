@@ -1,0 +1,31 @@
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         id="WebApp_ID" version="2.5">
+
+    <servlet>
+        <servlet-name>DemoServlet</servlet-name>
+        <servlet-class>com.lcg.messenger.web.DemoServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DemoServlet</servlet-name>
+        <url-pattern>/DemoServiceTest.svc/*</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>StatusMonitorServlet</servlet-name>
+        <servlet-class>com.lcg.messenger.async.DemoStatusMonitorServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>StatusMonitorServlet</servlet-name>
+        <url-pattern>/status/*</url-pattern>
+    </servlet-mapping>
+
+    <listener>
+        <listener-class>com.lcg.messenger.web.DemoServletContextListener</listener-class>
+    </listener>
+</web-app>
