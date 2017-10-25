@@ -1,6 +1,6 @@
 
 .idea
-DemoService.iml
+*.iml
 *.txt
 target/generated-sources/
 .settings
