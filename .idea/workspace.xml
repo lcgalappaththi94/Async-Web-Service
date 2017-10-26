@@ -7,9 +7,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93b6a3dc-8a1c-4cc7-8d47-c09b89d70333" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/AsyncHelper.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/AsyncHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/FilterExpressionVisitor.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/FilterExpressionVisitor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/AsyncHelper.class" afterPath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/AsyncHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,7 +56,7 @@
       <file leaf-file-name="DemoAsyncService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2944">
+            <state relative-caret-position="371">
               <caret line="117" column="131" lean-forward="false" selection-start-line="117" selection-start-column="131" selection-end-line="117" selection-end-column="131" />
               <folding />
             </state>
@@ -196,7 +193,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SET_USER_NAME_GLOBALLY" value="false" />
     <push-targets>
-      <push-target-info target-remote="origin" target-branch="master" repo="$PROJECT_DIR$" source="master" />
+      <push-target-info target-remote="gitLab" target-branch="master" repo="$PROJECT_DIR$" source="master" />
     </push-targets>
   </component>
   <component name="GradleLocalSettings">
@@ -822,7 +819,7 @@
       <workItem from="1508858093889" duration="2982000" />
       <workItem from="1508899313478" duration="14917000" />
       <workItem from="1508921374180" duration="4948000" />
-      <workItem from="1508983479057" duration="14021000" />
+      <workItem from="1508983479057" duration="15681000" />
     </task>
     <task id="LOCAL-00001" summary="This consists of CRUD, navigations, top, skip , count , expand, select, orderby, filters , functions and actions.">
       <created>1506494324668</created>
@@ -950,11 +947,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508999733388</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Changed delete procedure added thread pool">
+      <created>1508999805789</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1508999805789</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441233000" />
+    <option name="totallyTimeSpent" value="442893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -967,6 +971,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3597826" sideWeight="0.5053305" order="7" side_tool="true" content_ui="tabs" />
@@ -978,7 +983,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3597826" sideWeight="0.4946695" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3597826" sideWeight="0.4946695" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32717392" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3206522" sideWeight="0.49785176" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -988,7 +993,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934782" sideWeight="0.49570355" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20895523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20895523" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -1311,7 +1316,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2944">
+        <state relative-caret-position="371">
           <caret line="117" column="131" lean-forward="false" selection-start-line="117" selection-start-column="131" selection-end-line="117" selection-end-column="131" />
           <folding />
         </state>
