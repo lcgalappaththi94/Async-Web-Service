@@ -115,7 +115,7 @@ public class DemoAsyncService {
 
             String data = persistentResponse.read(location);                                   //TODO Check these three lines
             wrapFileToAsyncHttpResponse(data, response);                                       //TODO reading response from file
-            //wrapToAsyncHttpResponse(runner.getDispatched().getProcessResponse(),location);   //TODO reading response from runner no content in odata response here
+            //wrapToAsyncHttpResponse(runner.getDispatched().getProcessResponse(),location);   //TODO reading response from runner (no content in odata response here)
 
             Delete run = new Delete(location, true);
             DELETE_EXECUTOR.execute(run);
