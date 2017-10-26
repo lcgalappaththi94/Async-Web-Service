@@ -1,5 +1,6 @@
 package com.lcg.messenger.data;
 
+import com.lcg.messenger.async.DemoAsyncService;
 import org.apache.olingo.commons.api.ex.ODataRuntimeException;
 import org.apache.olingo.server.api.OData;
 import org.apache.olingo.server.api.ODataResponse;
@@ -96,8 +97,8 @@ public class FileSystem implements PersistentResponse {
         byte[] fileContent = null;
         try {
             fileContent = Files.readAllBytes(Paths.get(strFilePath));
-            Thread delete = new Delete(strFilePath);                                                                  //delete the file after reading
-            delete.start();
+            Delete run = new Delete(location, true);                         //original location should be supplied
+            DemoAsyncService.DELETE_EXECUTOR.execute(run);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -137,10 +138,11 @@ public class FileSystem implements PersistentResponse {
     @Override
     public void delete(String location) {
         System.out.println("delete() @FileSystem");
+        String strFilePath = getStringFilePath(location);
         try {
             System.out.println("------------------------------------------before file delete-------------------------------------");
-            while (!Files.isWritable(Paths.get(location))) ;
-            Files.deleteIfExists(Paths.get(location));
+            while (!Files.isWritable(Paths.get(strFilePath))) ;
+            Files.deleteIfExists(Paths.get(strFilePath));
             System.out.println("------------------------------------------file deleted-------------------------------------------");
         } catch (IOException e) {
             e.printStackTrace();

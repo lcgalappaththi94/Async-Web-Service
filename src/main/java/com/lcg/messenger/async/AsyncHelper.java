@@ -26,11 +26,10 @@ public class AsyncHelper {
 
 
         if (!DemoAsyncService.persistentResponse.find(location)) {
-            System.out.println("file data  not found!!!");
+            System.out.println("file or database data  not found!!!");
             DemoAsyncService.acceptedResponse(response, location);                                        //send location
         } else {
             String data = DemoAsyncService.persistentResponse.read(location);
-            DemoAsyncService.LOCATION_2_ASYNC_RUNNER.remove(location);
             InputStream is = new ByteArrayInputStream(data.getBytes());
             response.setContent(is);
             response.setStatusCode(HttpStatusCode.OK.getStatusCode());

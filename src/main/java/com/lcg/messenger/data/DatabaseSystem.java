@@ -1,5 +1,6 @@
 package com.lcg.messenger.data;
 
+import com.lcg.messenger.async.DemoAsyncService;
 import org.apache.olingo.commons.api.ex.ODataRuntimeException;
 import org.apache.olingo.server.api.OData;
 import org.apache.olingo.server.api.ODataResponse;
@@ -84,8 +85,8 @@ public class DatabaseSystem implements PersistentResponse {
             if (rs.next()) {
                 result = rs.getString("response");
             }
-            Thread delete = new Delete(location);                                     //delete the file after reading
-            delete.start();
+            Delete run = new Delete(location, true);
+            DemoAsyncService.DELETE_EXECUTOR.execute(run);
             return result;
         } catch (Exception e) {
             e.printStackTrace();

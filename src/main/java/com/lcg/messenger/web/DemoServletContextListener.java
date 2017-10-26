@@ -16,6 +16,6 @@ public class DemoServletContextListener implements ServletContextListener {
     @Override
     public void contextDestroyed(ServletContextEvent servletContextEvent) {
         System.out.println("contextDestroyed() @DemoServletContextListener");
-        DemoAsyncService.getInstance().shutdownThreadPool();
+        DemoAsyncService.getInstance().shutdownThreadPools();
     }
 }

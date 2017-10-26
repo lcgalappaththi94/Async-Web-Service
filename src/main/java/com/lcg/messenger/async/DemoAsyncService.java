@@ -1,6 +1,7 @@
 package com.lcg.messenger.async;
 
-import com.lcg.messenger.data.DatabaseSystem;
+import com.lcg.messenger.data.Delete;
+import com.lcg.messenger.data.FileSystem;
 import com.lcg.messenger.data.PersistentResponse;
 import org.apache.olingo.commons.api.ex.ODataRuntimeException;
 import org.apache.olingo.commons.api.format.ContentType;
@@ -34,10 +35,12 @@ public class DemoAsyncService {
     public static final String TEC_ASYNC_SLEEP = "sleep";
     public static final String STATUS_MONITOR_TOKEN = "status";
 
-    public static PersistentResponse persistentResponse = new DatabaseSystem();                            //select the persistence storage
+    public static PersistentResponse persistentResponse = new FileSystem();                                                                      //select the persistence storage
 
     public static final Map<String, AsyncRunner> LOCATION_2_ASYNC_RUNNER = Collections.synchronizedMap(new HashMap<String, AsyncRunner>());      // status monitor url with runner
-    private static final ExecutorService ASYNC_REQUEST_EXECUTOR = Executors.newFixedThreadPool(10);
+
+    private static final ExecutorService ASYNC_REQUEST_EXECUTOR = Executors.newFixedThreadPool(20);
+    public static final ExecutorService DELETE_EXECUTOR = Executors.newFixedThreadPool(20);
 
     public <T extends Processor> AsyncProcessor<T> register(T processor, Class<T> processorInterface) {
         System.out.println("register() @DemoAsyncService");
@@ -69,9 +72,10 @@ public class DemoAsyncService {
         return AsyncProcessorHolder.INSTANCE;
     }
 
-    public void shutdownThreadPool() {
+    public void shutdownThreadPools() {
         System.out.println("shutdownThreadPool() @DemoAsyncService");
         ASYNC_REQUEST_EXECUTOR.shutdown();
+        DELETE_EXECUTOR.shutdown();
     }
 
     public boolean isStatusMonitorResource(HttpServletRequest request) {
@@ -104,13 +108,19 @@ public class DemoAsyncService {
                 response.setStatus(HttpStatusCode.NOT_FOUND.getStatusCode());
             } else {
                 String data = persistentResponse.read(location);
-                response.setStatus(HttpStatusCode.OK.getStatusCode());
                 wrapFileToAsyncHttpResponse(data, response);
             }
         } else if (runner.isFinished()) {
             System.out.println("runner finished");
-            response.setStatus(HttpStatusCode.OK.getStatusCode());
-            wrapToAsyncHttpResponse(runner.getDispatched().getProcessResponse(), response);
+
+            String data = persistentResponse.read(location);                                   //TODO Check these three lines
+            wrapFileToAsyncHttpResponse(data, response);                                       //TODO reading response from file
+            //wrapToAsyncHttpResponse(runner.getDispatched().getProcessResponse(),location);   //TODO reading response from runner no content in odata response here
+
+            Delete run = new Delete(location, true);
+            DELETE_EXECUTOR.execute(run);
+            if (LOCATION_2_ASYNC_RUNNER.get(location) != null)
+                LOCATION_2_ASYNC_RUNNER.remove(location);
         } else {
             System.out.println("runner not finished");
             response.setStatus(HttpStatusCode.ACCEPTED.getStatusCode());
@@ -240,7 +250,7 @@ public class DemoAsyncService {
         private static final Pattern PATTERN = Pattern.compile(TEC_ASYNC_SLEEP + "=\\d*");
         private final AsyncProcessor<? extends Processor> dispatched;
         private int defaultSleepTimeInSeconds = 0;
-        boolean finished = false;
+        private boolean finished = false;
 
         public AsyncRunner(AsyncProcessor<? extends Processor> wrap) {
             this(wrap, 0);
@@ -268,11 +278,11 @@ public class DemoAsyncService {
 
             finished = true;
             System.out.println("run finished: " + finished + " location: " + dispatched.getLocation());
-            ODataResponse wrapResult = dispatched.getProcessResponse();
-
+            final ODataResponse wrapResult = dispatched.getProcessResponse();
             try {
-                persistentResponse.write(dispatched.getLocation(), wrapResult);
-                LOCATION_2_ASYNC_RUNNER.remove(dispatched.getLocation());
+                persistentResponse.write(dispatched.getLocation(), wrapResult);                           //TODO check this line
+                Delete run = new Delete(dispatched.getLocation(), false);
+                DELETE_EXECUTOR.execute(run);
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -301,5 +311,6 @@ public class DemoAsyncService {
             System.out.println("getDispatched() @AsyncRunner @DemoAsyncService");
             return dispatched;
         }
+
     }
 }
