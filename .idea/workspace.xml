@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93b6a3dc-8a1c-4cc7-8d47-c09b89d70333" name="Default" comment="File system modification">
+    <list default="true" id="93b6a3dc-8a1c-4cc7-8d47-c09b89d70333" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/FileSystem.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/AsyncHelper.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/AsyncHelper.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoAsyncService$AsyncProcessorHolder.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoAsyncService$AsyncProcessorHolder.class" />
@@ -25,13 +25,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/Delete.class" afterPath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/Delete.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/web/DemoServletContextListener.class" afterPath="$PROJECT_DIR$/target/classes/com/lcg/messenger/web/DemoServletContextListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/AsyncHelper.java" afterPath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/AsyncHelper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java" afterPath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/DatabaseSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/Delete.java" afterPath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/Delete.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/FileSystem.java" afterPath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/data/FileSystem.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/web/DemoServlet.java" afterPath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/web/DemoServlet.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/web/DemoServletContextListener.java" afterPath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/web/DemoServletContextListener.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -842,7 +835,7 @@
       <workItem from="1508858093889" duration="2982000" />
       <workItem from="1508899313478" duration="14917000" />
       <workItem from="1508921374180" duration="4948000" />
-      <workItem from="1508983479057" duration="13779000" />
+      <workItem from="1508983479057" duration="13826000" />
     </task>
     <task id="LOCAL-00001" summary="This consists of CRUD, navigations, top, skip , count , expand, select, orderby, filters , functions and actions.">
       <created>1506494324668</created>
@@ -949,11 +942,18 @@
       <option name="project" value="LOCAL" />
       <updated>1508924611986</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Changed delete procedure added thread pool">
+      <created>1508999599490</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1508999599490</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="440991000" />
+    <option name="totallyTimeSpent" value="441038000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1021,7 +1021,8 @@
     <MESSAGE value="deleted Asy.java" />
     <MESSAGE value="Refactored DatabaseSystem.java" />
     <MESSAGE value="File system modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="File system modification" />
+    <MESSAGE value="Changed delete procedure added thread pool" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed delete procedure added thread pool" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
