@@ -7,23 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93b6a3dc-8a1c-4cc7-8d47-c09b89d70333" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/FileSystem.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/AsyncHelper.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/AsyncHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoAsyncService$AsyncProcessorHolder.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoAsyncService$AsyncProcessorHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoAsyncService$AsyncRunner.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoAsyncService$AsyncRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoAsyncService.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/async/DemoAsyncService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/DatabaseSystem.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/DatabaseSystem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/Delete.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/Delete.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/FileSystem.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/data/FileSystem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/web/DemoServlet.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/web/DemoServlet.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/web/DemoServletContextListener.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/web/DemoServletContextListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/FilterExpressionVisitor.class" afterPath="$PROJECT_DIR$/target/DemoService/WEB-INF/classes/com/lcg/messenger/service/FilterExpressionVisitor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/AsyncHelper.class" afterPath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/AsyncHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/DemoAsyncService$AsyncProcessorHolder.class" afterPath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/DemoAsyncService$AsyncProcessorHolder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/DemoAsyncService$AsyncRunner.class" afterPath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/DemoAsyncService$AsyncRunner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/DemoAsyncService.class" afterPath="$PROJECT_DIR$/target/classes/com/lcg/messenger/async/DemoAsyncService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/DatabaseSystem.class" afterPath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/DatabaseSystem.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/Delete.class" afterPath="$PROJECT_DIR$/target/classes/com/lcg/messenger/data/Delete.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/lcg/messenger/web/DemoServletContextListener.class" afterPath="$PROJECT_DIR$/target/classes/com/lcg/messenger/web/DemoServletContextListener.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -73,7 +59,7 @@
       <file leaf-file-name="DemoAsyncService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="394">
+            <state relative-caret-position="-2944">
               <caret line="117" column="131" lean-forward="false" selection-start-line="117" selection-start-column="131" selection-end-line="117" selection-end-column="131" />
               <folding />
             </state>
@@ -97,16 +83,16 @@
               <caret line="65" column="55" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1508987115865" expanded="true" signature="2124:2159" ph="INSERT INTO responses... " />
-                <marker date="1508987115865" expanded="true" signature="2742:2782" ph="SELECT * FRO... responses" />
-                <marker date="1508987115865" expanded="true" signature="3454:3516" ph="DELETE FROM " />
-                <marker date="1508987115865" expanded="true" signature="3845:3885" ph="SELECT * FRO... responses" />
-                <marker date="1508987115865" expanded="true" signature="4541:4580" ph="DELETE FROM " />
-                <marker date="1508987115865" expanded="true" signature="5592:5629" ph="CREATE TABLE... responses" />
-                <marker date="1508987115865" expanded="true" signature="5592:5672" ph="CREATE TABLE... responses" />
-                <marker date="1508987115865" expanded="true" signature="5592:5701" ph="CREATE TABLE... responses" />
-                <marker date="1508987115865" expanded="true" signature="5592:5726" ph="CREATE TABLE... responses" />
-                <marker date="1508987115865" expanded="true" signature="5592:5727" ph="CREATE TABLE... responses" />
+                <marker date="1508999626480" expanded="true" signature="2124:2159" ph="INSERT INTO responses... " />
+                <marker date="1508999626480" expanded="true" signature="2742:2782" ph="SELECT * FRO... responses" />
+                <marker date="1508999626480" expanded="true" signature="3454:3516" ph="DELETE FROM " />
+                <marker date="1508999626480" expanded="true" signature="3845:3885" ph="SELECT * FRO... responses" />
+                <marker date="1508999626480" expanded="true" signature="4541:4580" ph="DELETE FROM " />
+                <marker date="1508999626480" expanded="true" signature="5592:5629" ph="CREATE TABLE... responses" />
+                <marker date="1508999626480" expanded="true" signature="5592:5672" ph="CREATE TABLE... responses" />
+                <marker date="1508999626480" expanded="true" signature="5592:5701" ph="CREATE TABLE... responses" />
+                <marker date="1508999626480" expanded="true" signature="5592:5726" ph="CREATE TABLE... responses" />
+                <marker date="1508999626480" expanded="true" signature="5592:5727" ph="CREATE TABLE... responses" />
               </folding>
             </state>
           </provider>
@@ -297,8 +283,9 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="24" />
+    <option name="y" value="161" />
     <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="height" value="895" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -835,7 +822,7 @@
       <workItem from="1508858093889" duration="2982000" />
       <workItem from="1508899313478" duration="14917000" />
       <workItem from="1508921374180" duration="4948000" />
-      <workItem from="1508983479057" duration="13826000" />
+      <workItem from="1508983479057" duration="14021000" />
     </task>
     <task id="LOCAL-00001" summary="This consists of CRUD, navigations, top, skip , count , expand, select, orderby, filters , functions and actions.">
       <created>1506494324668</created>
@@ -949,11 +936,25 @@
       <option name="project" value="LOCAL" />
       <updated>1508999599490</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Changed delete procedure added thread pool">
+      <created>1508999607726</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1508999607726</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Changed delete procedure added thread pool">
+      <created>1508999733388</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1508999733388</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="441038000" />
+    <option name="totallyTimeSpent" value="441233000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1246,16 +1247,16 @@
           <caret line="65" column="55" lean-forward="false" selection-start-line="65" selection-start-column="41" selection-end-line="65" selection-end-column="55" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1508987115865" expanded="true" signature="2124:2159" ph="INSERT INTO responses... " />
-            <marker date="1508987115865" expanded="true" signature="2742:2782" ph="SELECT * FRO... responses" />
-            <marker date="1508987115865" expanded="true" signature="3454:3516" ph="DELETE FROM " />
-            <marker date="1508987115865" expanded="true" signature="3845:3885" ph="SELECT * FRO... responses" />
-            <marker date="1508987115865" expanded="true" signature="4541:4580" ph="DELETE FROM " />
-            <marker date="1508987115865" expanded="true" signature="5592:5629" ph="CREATE TABLE... responses" />
-            <marker date="1508987115865" expanded="true" signature="5592:5672" ph="CREATE TABLE... responses" />
-            <marker date="1508987115865" expanded="true" signature="5592:5701" ph="CREATE TABLE... responses" />
-            <marker date="1508987115865" expanded="true" signature="5592:5726" ph="CREATE TABLE... responses" />
-            <marker date="1508987115865" expanded="true" signature="5592:5727" ph="CREATE TABLE... responses" />
+            <marker date="1508999626480" expanded="true" signature="2124:2159" ph="INSERT INTO responses... " />
+            <marker date="1508999626480" expanded="true" signature="2742:2782" ph="SELECT * FRO... responses" />
+            <marker date="1508999626480" expanded="true" signature="3454:3516" ph="DELETE FROM " />
+            <marker date="1508999626480" expanded="true" signature="3845:3885" ph="SELECT * FRO... responses" />
+            <marker date="1508999626480" expanded="true" signature="4541:4580" ph="DELETE FROM " />
+            <marker date="1508999626480" expanded="true" signature="5592:5629" ph="CREATE TABLE... responses" />
+            <marker date="1508999626480" expanded="true" signature="5592:5672" ph="CREATE TABLE... responses" />
+            <marker date="1508999626480" expanded="true" signature="5592:5701" ph="CREATE TABLE... responses" />
+            <marker date="1508999626480" expanded="true" signature="5592:5726" ph="CREATE TABLE... responses" />
+            <marker date="1508999626480" expanded="true" signature="5592:5727" ph="CREATE TABLE... responses" />
           </folding>
         </state>
       </provider>
@@ -1274,8 +1275,8 @@
           <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1508992161391" expanded="false" signature="1103:1114" ph=" { " />
-            <marker date="1508992161391" expanded="false" signature="1130:1136" ph=" }" />
+            <marker date="1508999626480" expanded="false" signature="1103:1114" ph=" { " />
+            <marker date="1508999626480" expanded="false" signature="1130:1136" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1310,7 +1311,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
+        <state relative-caret-position="-2944">
           <caret line="117" column="131" lean-forward="false" selection-start-line="117" selection-start-column="131" selection-end-line="117" selection-end-column="131" />
           <folding />
         </state>
