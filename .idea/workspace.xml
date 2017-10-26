@@ -8,7 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="93b6a3dc-8a1c-4cc7-8d47-c09b89d70333" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java" afterPath="$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +56,8 @@
       <file leaf-file-name="DemoAsyncService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="575">
-              <caret line="117" column="166" lean-forward="false" selection-start-line="117" selection-start-column="166" selection-end-line="117" selection-end-column="166" />
+            <state relative-caret-position="745">
+              <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -823,7 +822,7 @@
       <workItem from="1508858093889" duration="2982000" />
       <workItem from="1508899313478" duration="14917000" />
       <workItem from="1508921374180" duration="4948000" />
-      <workItem from="1508983479057" duration="16335000" />
+      <workItem from="1508983479057" duration="16396000" />
     </task>
     <task id="LOCAL-00001" summary="This consists of CRUD, navigations, top, skip , count , expand, select, orderby, filters , functions and actions.">
       <created>1506494324668</created>
@@ -965,11 +964,18 @@
       <option name="project" value="LOCAL" />
       <updated>1509003611098</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Changed delete procedure added thread pool">
+      <created>1509004266648</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1509004266648</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="443547000" />
+    <option name="totallyTimeSpent" value="443608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1327,8 +1333,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/lcg/messenger/async/DemoAsyncService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="575">
-          <caret line="117" column="166" lean-forward="false" selection-start-line="117" selection-start-column="166" selection-end-line="117" selection-end-column="166" />
+        <state relative-caret-position="745">
+          <caret line="127" column="9" lean-forward="true" selection-start-line="127" selection-start-column="9" selection-end-line="127" selection-end-column="9" />
           <folding />
         </state>
       </provider>
